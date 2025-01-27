@@ -251,7 +251,7 @@ fun InsCard(
                 horizontalArrangement = Arrangement.End // Align buttons to the right
             ) {
                 Button(
-                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFa4c639)),
+                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF60d4cc)),
                     onClick = { onDetailClick(instruktur) },
                     modifier = Modifier.padding(end = 8.dp) // Space between buttons
                 ) {

@@ -104,7 +104,7 @@ fun UpdateBody(
         Button(
             onClick = onUpdateClick,
             shape = MaterialTheme.shapes.small,
-            colors = ButtonDefaults.buttonColors(Color(0xFFa4c639)),
+            colors = ButtonDefaults.buttonColors(Color(0xFF60d4cc)),
         ) {
             Text(text = "Update")
         }
@@ -168,7 +168,7 @@ fun UpdateFormInput(
             onValueChange = { onValueChange(updateUiEvent.copy(idInstruktur = it)) },
             label = { Text(text = "Id Instruktur") },
             modifier = Modifier.fillMaxWidth(),
-            enabled = enabled,
+            enabled = false,
             singleLine = true
         )
     }

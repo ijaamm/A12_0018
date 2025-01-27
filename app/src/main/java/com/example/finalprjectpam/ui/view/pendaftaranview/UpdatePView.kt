@@ -104,7 +104,7 @@ fun UpdateBody(
         Button(
             onClick = onUpdateClick,
             shape = MaterialTheme.shapes.small,
-            colors = ButtonDefaults.buttonColors(Color(0xFFa4c639)),
+            colors = ButtonDefaults.buttonColors(Color(0xFF60d4cc)),
         ) {
             Text(text = "Update")
         }
@@ -136,7 +136,7 @@ fun UpdateFormInput(
             onValueChange = { onValueChange(updateUiEvent.copy(idSiswa = it)) },
             label = { Text(text = "Id Siswa") },
             modifier = Modifier.fillMaxWidth(),
-            enabled = enabled,
+            enabled = false,
             singleLine = true
         )
         OutlinedTextField(
@@ -144,7 +144,7 @@ fun UpdateFormInput(
             onValueChange = { onValueChange(updateUiEvent.copy(idKursus = it)) },
             label = { Text(text = "Id Kursus") },
             modifier = Modifier.fillMaxWidth(),
-            enabled = enabled,
+            enabled = false,
             singleLine = true
         )
         OutlinedTextField(

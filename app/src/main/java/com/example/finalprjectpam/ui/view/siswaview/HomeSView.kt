@@ -188,7 +188,7 @@ fun SswCardList(
                         horizontalArrangement = Arrangement.End
                     ) {
                         Button(
-                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFa4c639)),
+                            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF60d4cc)),
                             onClick = { onDetailClick(kontak) },
                             modifier = Modifier.padding(end = 8.dp)
                         ) {

@@ -93,7 +93,7 @@ fun EntryBody(
             onClick = onSaveClick,
             shape = MaterialTheme.shapes.small,
             modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(Color(0xFFa4c639))
+            colors = ButtonDefaults.buttonColors(Color(0xFF60d4cc))
         ){
             Text(text = "Simpan")
         }
